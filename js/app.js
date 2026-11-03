@@ -43,7 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function addTodo(e) {
         e.preventDefault();
-
         const text = input.value.trim();
 
         if (text === "") {
@@ -72,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     
-    todoForm.addEventListener('submit', addTodo);
+    form.addEventListener('submit', addTodo);
 
   
     todoList.addEventListener('click', (e) => {
