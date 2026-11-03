@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const todoList = document.getElementById('todo-list');
     const errorMsg = document.getElementById('error-msg');
     const counter = document.getElementById('counter');
-
     const filterAll = document.getElementById('filter-all');
     const filterActive = document.getElementById('filter-active');
     const filterDone = document.getElementById('filter-done');
